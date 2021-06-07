@@ -1,10 +1,10 @@
 #include <gb/gb.h>
 
-#include "game_Configuration.h"
+#include "gameConfiguration.h"
 
 int main(){
-    initialize_Game();
+    initializeGame();
 
-    while (TRUE) { game_Core_Loop(); }
+    while (TRUE) { gameCoreLoop(); }
     return 0;
 }

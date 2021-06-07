@@ -1,6 +1,6 @@
 /*
 
- FONTTD.H
+ OVERWORLDTD.H
 
  Include File.
 
@@ -10,7 +10,7 @@
   Compression          : None.
   Counter              : None.
   Tile size            : 8 x 8
-  Tiles                : 0 to 49
+  Tiles                : 0 to 32
 
   Palette colors       : None.
   SGB Palette          : None.
@@ -22,14 +22,14 @@
 
 */
 
-#ifndef __fontTD_h_INCLUDE
-#define __fontTD_h_INCLUDE
+#ifndef __overworldTD_h_INCLUDE
+#define __overworldTD_h_INCLUDE
 
 /* Bank of tiles. */
-#define fontSpritesBank 0
+#define overworldSpritesBank 0
 /* Start of tile array. */
-extern const unsigned char fontSprites[];
+extern const unsigned char overworldSprites[];
 
 #endif
 
-/* End of FONTTD.H */
+/* End of OVERWORLDTD.H */

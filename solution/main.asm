@@ -1,6 +1,6 @@
 ;--------------------------------------------------------
 ; File Created by SDCC : free open source ANSI-C Compiler
-; Version 4.0.7 #12016 (MINGW64)
+; Version 4.1.0 #12072 (MINGW32)
 ;--------------------------------------------------------
 	.module main
 	.optsdcc -mgbz80
@@ -9,8 +9,8 @@
 ; Public variables in this module
 ;--------------------------------------------------------
 	.globl _main
-	.globl _initialize_Game
-	.globl _game_Core_Loop
+	.globl _gameCoreLoop
+	.globl _initializeGame
 ;--------------------------------------------------------
 ; special function registers
 ;--------------------------------------------------------
@@ -40,30 +40,30 @@
 	.area _CODE
 	G$main$0$0	= .
 	.globl	G$main$0$0
-	C$main.c$5$0_0$86	= .
-	.globl	C$main.c$5$0_0$86
+	C$main.c$5$0_0$97	= .
+	.globl	C$main.c$5$0_0$97
 ;main.c:5: int main(){
 ;	---------------------------------
 ; Function main
 ; ---------------------------------
 _main::
-	C$main.c$6$1_0$86	= .
-	.globl	C$main.c$6$1_0$86
-;main.c:6: initialize_Game();
-	call	_initialize_Game
-	C$main.c$8$1_0$86	= .
-	.globl	C$main.c$8$1_0$86
-;main.c:8: while (TRUE) { game_Core_Loop(); }
+	C$main.c$6$1_0$97	= .
+	.globl	C$main.c$6$1_0$97
+;main.c:6: initializeGame();
+	call	_initializeGame
+	C$main.c$8$1_0$97	= .
+	.globl	C$main.c$8$1_0$97
+;main.c:8: while (TRUE) { gameCoreLoop(); }
 00102$:
-	call	_game_Core_Loop
-	C$main.c$9$1_0$86	= .
-	.globl	C$main.c$9$1_0$86
+	call	_gameCoreLoop
+	C$main.c$9$1_0$97	= .
+	.globl	C$main.c$9$1_0$97
 ;main.c:9: return 0;
-	C$main.c$10$1_0$86	= .
-	.globl	C$main.c$10$1_0$86
+	C$main.c$10$1_0$97	= .
+	.globl	C$main.c$10$1_0$97
 ;main.c:10: }
-	C$main.c$10$1_0$86	= .
-	.globl	C$main.c$10$1_0$86
+	C$main.c$10$1_0$97	= .
+	.globl	C$main.c$10$1_0$97
 	XG$main$0$0	= .
 	.globl	XG$main$0$0
 	jr	00102$

@@ -12,7 +12,8 @@
         "gameconfiguration.h": "c",
         "player.h": "c",
         "headsupdisplaymb.h": "c",
-        "guardtd.h": "c"
+        "guardtd.h": "c",
+        "fonttd.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

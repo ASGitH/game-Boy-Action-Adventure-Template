@@ -10,15 +10,15 @@ Symbol Table
   0 A$main$53                                                      000000 GR
   0 A$main$58                                                      000003 GR
   0 A$main$69                                                      000006 GR
-  0 C$main.c$10$1_0$86                                          =  000006 GR
-  0 C$main.c$5$0_0$86                                           =  000000 GR
-  0 C$main.c$6$1_0$86                                           =  000000 GR
-  0 C$main.c$8$1_0$86                                           =  000003 GR
-  0 C$main.c$9$1_0$86                                           =  000006 GR
+  0 C$main.c$10$1_0$97                                          =  000006 GR
+  0 C$main.c$5$0_0$97                                           =  000000 GR
+  0 C$main.c$6$1_0$97                                           =  000000 GR
+  0 C$main.c$8$1_0$97                                           =  000003 GR
+  0 C$main.c$9$1_0$97                                           =  000006 GR
   0 G$main$0$0                                                  =  000000 GR
   0 XG$main$0$0                                                 =  000006 GR
-    _game_Core_Loop                                                ****** GX
-    _initialize_Game                                               ****** GX
+    _gameCoreLoop                                                  ****** GX
+    _initializeGame                                                ****** GX
   0 _main                                                          000000 GR
 
 
