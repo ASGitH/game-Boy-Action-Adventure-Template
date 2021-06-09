@@ -19,6 +19,16 @@ To Attack: the a button
 
 ![alt text](https://asgith.github.io/images/action-adventure-template-05.png "Action-Adventure Template Screenshot")
 
+## Miscellaneous
+
+Tools used:
+
+* Backgrounds/Sprites/Tiles - [Game Boy Map Builder & Game Boy Tile Designer](https://github.com/gbdk-2020/GBTD_GBMB)
+
+* Developer Kit - [Game Boy Development Kit](https://github.com/gbdk-2020/gbdk-2020)
+
+* Emulator - [BGB GameBoy Emulator](http://bgb.bircd.org/)
+
 ## To Run it
 
 To get it up and running, you'll need to have a emulator that can run Game Boy games. My preference is to use [BGB GameBoy Emulator](http://bgb.bircd.org/)
