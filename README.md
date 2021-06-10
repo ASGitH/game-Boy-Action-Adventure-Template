@@ -1,8 +1,8 @@
-# [Action-Adventure Template](https://asgith.github.io/action-adventure-template-page)
+# [Action-Adventure Template](https://asgith.github.io/game-boy-action-adventure-template-page)
 
 ![alt text](https://asgith.github.io/images/action-adventure-template-02.png "Action-Adventure Template Screenshot")
 
-[Action-Adventure Template](https://asgith.github.io/action-adventure-template-page) is a Game Boy project, that would be used as a starting point, in future projects. Whenever I create a project, I tend to start from scratch. Having this template would give me a head start and my goal with is template is to make it easy/modular to build from it.
+[Action-Adventure Template](https://asgith.github.io/game-boy-action-adventure-template-page) is a Game Boy project, that would be used as a starting point, in future projects. Whenever I create a project, I tend to start from scratch. Having this template would give me a head start and my goal with is template is to make it easy/modular to build from it.
 
 Latest Update:
 
