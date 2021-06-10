@@ -7,7 +7,7 @@
 Latest Update:
 
 * April 22nd, 2021
-Issue with collision. Player in certain directions would clip into tile, causing issues being able to move.
+  - Issue with collision. Player in certain directions would clip into tile, causing issues being able to move.
 
 ![alt text](https://asgith.github.io/images/action-adventure-template-03.png "Action-Adventure Template Screenshot")
 
